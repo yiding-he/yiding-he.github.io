@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      MyBatis 如何实现流式查询
+date:       2020-04-21
+author:     yiding-he
+header-img: 
+catalog:    true
+tags:
+    - 默认分类
+---
+
 ## 基本概念
 
 流式查询指的是查询成功后不是返回一个集合而是返回一个迭代器，应用每次从迭代器取一条查询结果。流式查询的好处是能够降低内存使用。
